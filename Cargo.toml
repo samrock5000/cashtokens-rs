@@ -1,0 +1,10 @@
+[workspace]
+members =  [
+  "abc-rust-lint",
+  "bitcoinsuite-core",
+  "token-test",
+  "examples/token-cli",
+]
+
+[workspace.package]
+readme = "README.md"

@@ -1,0 +1,15 @@
+[package]
+name = "token-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.96"
+bitcoinsuite-core = { path = "../bitcoinsuite-core" }
+serde = { version ="1.0.164", features = ["derive"] }
+hex = "0.4"
+bytes = "1.4"
+thiserror = "1.0"
+
